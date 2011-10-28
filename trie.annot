@@ -1303,7 +1303,7 @@ type(
   entry -> string -> unit
 )
 ident(
-  def add_text "WriteWithMe/trie.ml" 83 3071 3071 --
+  def add_text "WriteWithMe/trie.ml" 84 3114 3114 --
 )
 "WriteWithMe/trie.ml" 59 1978 1991 "WriteWithMe/trie.ml" 59 1978 1995
 type(
@@ -1973,43 +1973,860 @@ type(
 type(
   unit
 )
-"WriteWithMe/trie.ml" 83 3071 3075 "WriteWithMe/trie.ml" 83 3071 3094
+"WriteWithMe/trie.ml" 84 3114 3118 "WriteWithMe/trie.ml" 84 3114 3133
 type(
-  'a -> unit
+  char list -> string
 )
 ident(
-  def find_best_next_word "WriteWithMe/trie.ml" 88 3166 3166 --
+  def string_of_chars "WriteWithMe/trie.ml" 91 3390 3390 --
 )
-"WriteWithMe/trie.ml" 83 3071 3095 "WriteWithMe/trie.ml" 83 3071 3099
+"WriteWithMe/trie.ml" 84 3114 3134 "WriteWithMe/trie.ml" 84 3114 3139
 type(
-  'a
+  char list
 )
 ident(
-  def trie "WriteWithMe/trie.ml" 85 3126 3128 "WriteWithMe/trie.ml" 85 3126 3130
+  def chars "WriteWithMe/trie.ml" 85 3142 3144 "WriteWithMe/trie.ml" 87 3266 3274
 )
-"WriteWithMe/trie.ml" 85 3126 3128 "WriteWithMe/trie.ml" 85 3126 3130
+"WriteWithMe/trie.ml" 85 3142 3148 "WriteWithMe/trie.ml" 85 3142 3154
+type(
+  string
+)
+"WriteWithMe/trie.ml" 85 3142 3157 "WriteWithMe/trie.ml" 85 3142 3170
+type(
+  int -> string
+)
+ident(
+  ext_ref String.create
+)
+"WriteWithMe/trie.ml" 85 3142 3172 "WriteWithMe/trie.ml" 85 3142 3183
+type(
+  char list -> int
+)
+ident(
+  ext_ref List.length
+)
+"WriteWithMe/trie.ml" 85 3142 3184 "WriteWithMe/trie.ml" 85 3142 3189
+type(
+  char list
+)
+ident(
+  int_ref chars "WriteWithMe/trie.ml" 84 3114 3134 "WriteWithMe/trie.ml" 84 3114 3139
+)
+"WriteWithMe/trie.ml" 85 3142 3171 "WriteWithMe/trie.ml" 85 3142 3190
+call(
+  stack
+)
+type(
+  int
+)
+"WriteWithMe/trie.ml" 85 3142 3157 "WriteWithMe/trie.ml" 85 3142 3190
+type(
+  string
+)
+"WriteWithMe/trie.ml" 86 3194 3200 "WriteWithMe/trie.ml" 86 3194 3201
+type(
+  int
+)
+"WriteWithMe/trie.ml" 86 3194 3204 "WriteWithMe/trie.ml" 86 3194 3218
+type(
+  (int -> char -> int) -> int -> char list -> int
+)
+ident(
+  ext_ref List.fold_left
+)
+"WriteWithMe/trie.ml" 86 3194 3224 "WriteWithMe/trie.ml" 86 3194 3225
+type(
+  int
+)
+ident(
+  def i "WriteWithMe/trie.ml" 86 3194 3226 "WriteWithMe/trie.ml" 86 3194 3253
+)
+"WriteWithMe/trie.ml" 86 3194 3226 "WriteWithMe/trie.ml" 86 3194 3227
+type(
+  char
+)
+ident(
+  def c "WriteWithMe/trie.ml" 86 3194 3231 "WriteWithMe/trie.ml" 86 3194 3253
+)
+"WriteWithMe/trie.ml" 86 3194 3231 "WriteWithMe/trie.ml" 86 3194 3237
+type(
+  string
+)
+ident(
+  int_ref string "WriteWithMe/trie.ml" 85 3142 3148 "WriteWithMe/trie.ml" 85 3142 3154
+)
+"WriteWithMe/trie.ml" 86 3194 3239 "WriteWithMe/trie.ml" 86 3194 3240
+type(
+  int
+)
+ident(
+  int_ref i "WriteWithMe/trie.ml" 86 3194 3224 "WriteWithMe/trie.ml" 86 3194 3225
+)
+"WriteWithMe/trie.ml" 86 3194 3245 "WriteWithMe/trie.ml" 86 3194 3246
+type(
+  char
+)
+ident(
+  int_ref c "WriteWithMe/trie.ml" 86 3194 3226 "WriteWithMe/trie.ml" 86 3194 3227
+)
+"WriteWithMe/trie.ml" 86 3194 3231 "WriteWithMe/trie.ml" 86 3194 3246
 type(
   unit
 )
-"WriteWithMe/trie.ml" 88 3166 3170 "WriteWithMe/trie.ml" 88 3166 3175
+"WriteWithMe/trie.ml" 86 3194 3248 "WriteWithMe/trie.ml" 86 3194 3249
+type(
+  int
+)
+ident(
+  int_ref i "WriteWithMe/trie.ml" 86 3194 3224 "WriteWithMe/trie.ml" 86 3194 3225
+)
+"WriteWithMe/trie.ml" 86 3194 3250 "WriteWithMe/trie.ml" 86 3194 3251
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"WriteWithMe/trie.ml" 86 3194 3252 "WriteWithMe/trie.ml" 86 3194 3253
+type(
+  int
+)
+"WriteWithMe/trie.ml" 86 3194 3248 "WriteWithMe/trie.ml" 86 3194 3253
+type(
+  int
+)
+"WriteWithMe/trie.ml" 86 3194 3231 "WriteWithMe/trie.ml" 86 3194 3253
+type(
+  int
+)
+"WriteWithMe/trie.ml" 86 3194 3219 "WriteWithMe/trie.ml" 86 3194 3254
+type(
+  int -> char -> int
+)
+"WriteWithMe/trie.ml" 86 3194 3255 "WriteWithMe/trie.ml" 86 3194 3256
+type(
+  int
+)
+"WriteWithMe/trie.ml" 86 3194 3257 "WriteWithMe/trie.ml" 86 3194 3262
+type(
+  char list
+)
+ident(
+  int_ref chars "WriteWithMe/trie.ml" 84 3114 3134 "WriteWithMe/trie.ml" 84 3114 3139
+)
+"WriteWithMe/trie.ml" 86 3194 3204 "WriteWithMe/trie.ml" 86 3194 3262
+call(
+  stack
+)
+type(
+  int
+)
+"WriteWithMe/trie.ml" 87 3266 3268 "WriteWithMe/trie.ml" 87 3266 3274
+type(
+  string
+)
+ident(
+  int_ref string "WriteWithMe/trie.ml" 85 3142 3148 "WriteWithMe/trie.ml" 85 3142 3154
+)
+"WriteWithMe/trie.ml" 86 3194 3196 "WriteWithMe/trie.ml" 87 3266 3274
+type(
+  string
+)
+"WriteWithMe/trie.ml" 85 3142 3144 "WriteWithMe/trie.ml" 87 3266 3274
+type(
+  string
+)
+"WriteWithMe/trie.ml" 91 3390 3394 "WriteWithMe/trie.ml" 91 3390 3403
+type(
+  entry -> unit
+)
+ident(
+  def normalize "WriteWithMe/trie.ml" 112 4278 4278 --
+)
+"WriteWithMe/trie.ml" 91 3390 3404 "WriteWithMe/trie.ml" 91 3390 3408
+type(
+  entry
+)
+ident(
+  def trie "WriteWithMe/trie.ml" 92 3411 3413 "WriteWithMe/trie.ml" 109 4223 4243
+)
+"WriteWithMe/trie.ml" 92 3411 3421 "WriteWithMe/trie.ml" 92 3411 3433
+type(
+  entry -> char list -> char list -> int -> char list * int
+)
+"WriteWithMe/trie.ml" 92 3411 3434 "WriteWithMe/trie.ml" 92 3411 3438
+type(
+  entry
+)
+ident(
+  def trie "WriteWithMe/trie.ml" 92 3411 3439 "WriteWithMe/trie.ml" 102 3861 3925
+)
+"WriteWithMe/trie.ml" 92 3411 3439 "WriteWithMe/trie.ml" 92 3411 3447
+type(
+  char list
+)
+ident(
+  def word_acc "WriteWithMe/trie.ml" 92 3411 3448 "WriteWithMe/trie.ml" 102 3861 3925
+)
+"WriteWithMe/trie.ml" 92 3411 3448 "WriteWithMe/trie.ml" 92 3411 3457
+type(
+  char list
+)
+ident(
+  def curr_next "WriteWithMe/trie.ml" 92 3411 3458 "WriteWithMe/trie.ml" 102 3861 3925
+)
+"WriteWithMe/trie.ml" 92 3411 3458 "WriteWithMe/trie.ml" 92 3411 3473
+type(
+  int
+)
+ident(
+  def curr_next_count "WriteWithMe/trie.ml" 93 3476 3480 "WriteWithMe/trie.ml" 102 3861 3925
+)
+"WriteWithMe/trie.ml" 93 3476 3484 "WriteWithMe/trie.ml" 93 3476 3496
+type(
+  char list
+)
+"WriteWithMe/trie.ml" 93 3476 3499 "WriteWithMe/trie.ml" 93 3476 3503
+type(
+  entry
+)
+ident(
+  int_ref trie "WriteWithMe/trie.ml" 92 3411 3434 "WriteWithMe/trie.ml" 92 3411 3438
+)
+"WriteWithMe/trie.ml" 93 3476 3499 "WriteWithMe/trie.ml" 93 3476 3513
+type(
+  char
+)
+"WriteWithMe/trie.ml" 93 3476 3517 "WriteWithMe/trie.ml" 93 3476 3525
+type(
+  char list
+)
+ident(
+  int_ref word_acc "WriteWithMe/trie.ml" 92 3411 3439 "WriteWithMe/trie.ml" 92 3411 3447
+)
+"WriteWithMe/trie.ml" 93 3476 3499 "WriteWithMe/trie.ml" 93 3476 3525
+type(
+  char list
+)
+"WriteWithMe/trie.ml" 94 3529 3537 "WriteWithMe/trie.ml" 94 3529 3545
+type(
+  entry list
+)
+"WriteWithMe/trie.ml" 94 3529 3548 "WriteWithMe/trie.ml" 94 3529 3552
+type(
+  entry
+)
+ident(
+  int_ref trie "WriteWithMe/trie.ml" 92 3411 3434 "WriteWithMe/trie.ml" 92 3411 3438
+)
+"WriteWithMe/trie.ml" 94 3529 3548 "WriteWithMe/trie.ml" 94 3529 3557
+type(
+  entry list
+)
+"WriteWithMe/trie.ml" 95 3561 3569 "WriteWithMe/trie.ml" 95 3561 3581
+type(
+  char list * int
+)
+"WriteWithMe/trie.ml" 95 3561 3587 "WriteWithMe/trie.ml" 95 3561 3591
+type(
+  entry
+)
+ident(
+  int_ref trie "WriteWithMe/trie.ml" 92 3411 3434 "WriteWithMe/trie.ml" 92 3411 3438
+)
+"WriteWithMe/trie.ml" 95 3561 3587 "WriteWithMe/trie.ml" 95 3561 3602
+type(
+  int
+)
+"WriteWithMe/trie.ml" 95 3561 3603 "WriteWithMe/trie.ml" 95 3561 3604
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"WriteWithMe/trie.ml" 95 3561 3605 "WriteWithMe/trie.ml" 95 3561 3606
+type(
+  int
+)
+"WriteWithMe/trie.ml" 95 3561 3587 "WriteWithMe/trie.ml" 95 3561 3606
+type(
+  bool
+)
+"WriteWithMe/trie.ml" 97 3658 3665 "WriteWithMe/trie.ml" 97 3658 3677
+type(
+  char list
+)
+ident(
+  int_ref current_word "WriteWithMe/trie.ml" 93 3476 3484 "WriteWithMe/trie.ml" 93 3476 3496
+)
+"WriteWithMe/trie.ml" 97 3658 3679 "WriteWithMe/trie.ml" 97 3658 3683
+type(
+  entry
+)
+ident(
+  int_ref trie "WriteWithMe/trie.ml" 92 3411 3434 "WriteWithMe/trie.ml" 92 3411 3438
+)
+"WriteWithMe/trie.ml" 97 3658 3679 "WriteWithMe/trie.ml" 97 3658 3694
+type(
+  int
+)
+"WriteWithMe/trie.ml" 97 3658 3664 "WriteWithMe/trie.ml" 97 3658 3695
+type(
+  char list * int
+)
+"WriteWithMe/trie.ml" 98 3696 3706 "WriteWithMe/trie.ml" 98 3696 3715
+type(
+  char list
+)
+ident(
+  int_ref curr_next "WriteWithMe/trie.ml" 92 3411 3448 "WriteWithMe/trie.ml" 92 3411 3457
+)
+"WriteWithMe/trie.ml" 98 3696 3717 "WriteWithMe/trie.ml" 98 3696 3732
+type(
+  int
+)
+ident(
+  int_ref curr_next_count "WriteWithMe/trie.ml" 92 3411 3458 "WriteWithMe/trie.ml" 92 3411 3473
+)
+"WriteWithMe/trie.ml" 98 3696 3705 "WriteWithMe/trie.ml" 98 3696 3733
+type(
+  char list * int
+)
+"WriteWithMe/trie.ml" 95 3561 3584 "WriteWithMe/trie.ml" 98 3696 3733
+type(
+  char list * int
+)
+"WriteWithMe/trie.ml" 99 3737 3741 "WriteWithMe/trie.ml" 99 3737 3755
+type(
+  (char list * int -> entry -> char list * int) ->
+  char list * int -> entry list -> char list * int
+)
+ident(
+  ext_ref List.fold_left
+)
+"WriteWithMe/trie.ml" 99 3737 3762 "WriteWithMe/trie.ml" 99 3737 3763
+type(
+  char list
+)
+ident(
+  def w "WriteWithMe/trie.ml" 99 3737 3768 "WriteWithMe/trie.ml" 102 3861 3902
+)
+"WriteWithMe/trie.ml" 99 3737 3765 "WriteWithMe/trie.ml" 99 3737 3766
+type(
+  int
+)
+ident(
+  def c "WriteWithMe/trie.ml" 99 3737 3768 "WriteWithMe/trie.ml" 102 3861 3902
+)
+"WriteWithMe/trie.ml" 99 3737 3761 "WriteWithMe/trie.ml" 99 3737 3767
+type(
+  char list * int
+)
+"WriteWithMe/trie.ml" 99 3737 3768 "WriteWithMe/trie.ml" 99 3737 3773
+type(
+  entry
+)
+ident(
+  def child "WriteWithMe/trie.ml" 100 3777 3783 "WriteWithMe/trie.ml" 102 3861 3902
+)
+"WriteWithMe/trie.ml" 100 3777 3783 "WriteWithMe/trie.ml" 100 3777 3793
+type(
+  entry -> unit
+)
+ident(
+  int_ref best_child "WriteWithMe/trie.ml" 103 3926 3932 "WriteWithMe/trie.ml" 103 3926 3942
+)
+"WriteWithMe/trie.ml" 100 3777 3794 "WriteWithMe/trie.ml" 100 3777 3799
+type(
+  entry
+)
+ident(
+  int_ref child "WriteWithMe/trie.ml" 99 3737 3768 "WriteWithMe/trie.ml" 99 3737 3773
+)
+"WriteWithMe/trie.ml" 100 3777 3783 "WriteWithMe/trie.ml" 100 3777 3799
+call(
+  stack
+)
+type(
+  unit
+)
+"WriteWithMe/trie.ml" 101 3801 3812 "WriteWithMe/trie.ml" 101 3801 3814
+type(
+  char list
+)
+"WriteWithMe/trie.ml" 101 3801 3816 "WriteWithMe/trie.ml" 101 3801 3818
+type(
+  int
+)
+"WriteWithMe/trie.ml" 101 3801 3811 "WriteWithMe/trie.ml" 101 3801 3819
+type(
+  char list * int
+)
+"WriteWithMe/trie.ml" 101 3801 3822 "WriteWithMe/trie.ml" 101 3801 3834
+type(
+  entry -> char list -> char list -> int -> char list * int
+)
+ident(
+  int_ref child_finder "WriteWithMe/trie.ml" 92 3411 3421 "WriteWithMe/trie.ml" 92 3411 3433
+)
+"WriteWithMe/trie.ml" 101 3801 3835 "WriteWithMe/trie.ml" 101 3801 3840
+type(
+  entry
+)
+ident(
+  int_ref child "WriteWithMe/trie.ml" 99 3737 3768 "WriteWithMe/trie.ml" 99 3737 3773
+)
+"WriteWithMe/trie.ml" 101 3801 3841 "WriteWithMe/trie.ml" 101 3801 3853
+type(
+  char list
+)
+ident(
+  int_ref current_word "WriteWithMe/trie.ml" 93 3476 3484 "WriteWithMe/trie.ml" 93 3476 3496
+)
+"WriteWithMe/trie.ml" 101 3801 3854 "WriteWithMe/trie.ml" 101 3801 3855
+type(
+  char list
+)
+ident(
+  int_ref w "WriteWithMe/trie.ml" 99 3737 3762 "WriteWithMe/trie.ml" 99 3737 3763
+)
+"WriteWithMe/trie.ml" 101 3801 3856 "WriteWithMe/trie.ml" 101 3801 3857
+type(
+  int
+)
+ident(
+  int_ref c "WriteWithMe/trie.ml" 99 3737 3765 "WriteWithMe/trie.ml" 99 3737 3766
+)
+"WriteWithMe/trie.ml" 101 3801 3822 "WriteWithMe/trie.ml" 101 3801 3857
+call(
+  stack
+)
+type(
+  char list * int
+)
+"WriteWithMe/trie.ml" 102 3861 3870 "WriteWithMe/trie.ml" 102 3861 3871
+type(
+  int
+)
+ident(
+  int_ref c "WriteWithMe/trie.ml" 99 3737 3765 "WriteWithMe/trie.ml" 99 3737 3766
+)
+"WriteWithMe/trie.ml" 102 3861 3872 "WriteWithMe/trie.ml" 102 3861 3873
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"WriteWithMe/trie.ml" 102 3861 3874 "WriteWithMe/trie.ml" 102 3861 3876
+type(
+  int
+)
+ident(
+  int_ref cc "WriteWithMe/trie.ml" 101 3801 3816 "WriteWithMe/trie.ml" 101 3801 3818
+)
+"WriteWithMe/trie.ml" 102 3861 3870 "WriteWithMe/trie.ml" 102 3861 3876
+type(
+  bool
+)
+"WriteWithMe/trie.ml" 102 3861 3883 "WriteWithMe/trie.ml" 102 3861 3884
+type(
+  char list
+)
+ident(
+  int_ref w "WriteWithMe/trie.ml" 99 3737 3762 "WriteWithMe/trie.ml" 99 3737 3763
+)
+"WriteWithMe/trie.ml" 102 3861 3886 "WriteWithMe/trie.ml" 102 3861 3887
+type(
+  int
+)
+ident(
+  int_ref c "WriteWithMe/trie.ml" 99 3737 3765 "WriteWithMe/trie.ml" 99 3737 3766
+)
+"WriteWithMe/trie.ml" 102 3861 3882 "WriteWithMe/trie.ml" 102 3861 3888
+type(
+  char list * int
+)
+"WriteWithMe/trie.ml" 102 3861 3895 "WriteWithMe/trie.ml" 102 3861 3897
+type(
+  char list
+)
+ident(
+  int_ref ww "WriteWithMe/trie.ml" 101 3801 3812 "WriteWithMe/trie.ml" 101 3801 3814
+)
+"WriteWithMe/trie.ml" 102 3861 3899 "WriteWithMe/trie.ml" 102 3861 3901
+type(
+  int
+)
+ident(
+  int_ref cc "WriteWithMe/trie.ml" 101 3801 3816 "WriteWithMe/trie.ml" 101 3801 3818
+)
+"WriteWithMe/trie.ml" 102 3861 3894 "WriteWithMe/trie.ml" 102 3861 3902
+type(
+  char list * int
+)
+"WriteWithMe/trie.ml" 102 3861 3867 "WriteWithMe/trie.ml" 102 3861 3902
+type(
+  char list * int
+)
+"WriteWithMe/trie.ml" 101 3801 3807 "WriteWithMe/trie.ml" 102 3861 3902
+type(
+  char list * int
+)
+"WriteWithMe/trie.ml" 100 3777 3783 "WriteWithMe/trie.ml" 102 3861 3902
+type(
+  char list * int
+)
+"WriteWithMe/trie.ml" 99 3737 3756 "WriteWithMe/trie.ml" 102 3861 3903
+type(
+  char list * int -> entry -> char list * int
+)
+"WriteWithMe/trie.ml" 102 3861 3904 "WriteWithMe/trie.ml" 102 3861 3916
+type(
+  char list * int
+)
+ident(
+  int_ref start_values "WriteWithMe/trie.ml" 95 3561 3569 "WriteWithMe/trie.ml" 95 3561 3581
+)
+"WriteWithMe/trie.ml" 102 3861 3917 "WriteWithMe/trie.ml" 102 3861 3925
+type(
+  entry list
+)
+ident(
+  int_ref children "WriteWithMe/trie.ml" 94 3529 3537 "WriteWithMe/trie.ml" 94 3529 3545
+)
+"WriteWithMe/trie.ml" 99 3737 3741 "WriteWithMe/trie.ml" 102 3861 3925
+call(
+  tail
+)
+type(
+  char list * int
+)
+"WriteWithMe/trie.ml" 95 3561 3565 "WriteWithMe/trie.ml" 102 3861 3925
+type(
+  char list * int
+)
+"WriteWithMe/trie.ml" 94 3529 3533 "WriteWithMe/trie.ml" 102 3861 3925
+type(
+  char list * int
+)
+"WriteWithMe/trie.ml" 93 3476 3480 "WriteWithMe/trie.ml" 102 3861 3925
+type(
+  char list * int
+)
+"WriteWithMe/trie.ml" 103 3926 3932 "WriteWithMe/trie.ml" 103 3926 3942
+type(
+  entry -> unit
+)
+"WriteWithMe/trie.ml" 103 3926 3943 "WriteWithMe/trie.ml" 103 3926 3950
+type(
+  entry
+)
+ident(
+  def element "WriteWithMe/trie.ml" 104 3953 3957 "WriteWithMe/trie.ml" 108 4216 4222
+)
+"WriteWithMe/trie.ml" 104 3953 3962 "WriteWithMe/trie.ml" 104 3953 3971
+type(
+  char list
+)
+"WriteWithMe/trie.ml" 104 3953 3973 "WriteWithMe/trie.ml" 104 3953 3979
+type(
+  int
+)
+"WriteWithMe/trie.ml" 104 3953 3961 "WriteWithMe/trie.ml" 104 3953 3980
+type(
+  char list * int
+)
+"WriteWithMe/trie.ml" 104 3953 3983 "WriteWithMe/trie.ml" 104 3953 3997
+type(
+  (char list * int -> entry -> char list * int) ->
+  char list * int -> entry list -> char list * int
+)
+ident(
+  ext_ref List.fold_left
+)
+"WriteWithMe/trie.ml" 104 3953 4004 "WriteWithMe/trie.ml" 104 3953 4005
+type(
+  char list
+)
+ident(
+  def b "WriteWithMe/trie.ml" 104 3953 4010 "WriteWithMe/trie.ml" 106 4078 4118
+)
+"WriteWithMe/trie.ml" 104 3953 4007 "WriteWithMe/trie.ml" 104 3953 4008
+type(
+  int
+)
+ident(
+  def c "WriteWithMe/trie.ml" 104 3953 4010 "WriteWithMe/trie.ml" 106 4078 4118
+)
+"WriteWithMe/trie.ml" 104 3953 4003 "WriteWithMe/trie.ml" 104 3953 4009
+type(
+  char list * int
+)
+"WriteWithMe/trie.ml" 104 3953 4010 "WriteWithMe/trie.ml" 104 3953 4020
+type(
+  entry
+)
+ident(
+  def new_branch "WriteWithMe/trie.ml" 105 4024 4030 "WriteWithMe/trie.ml" 106 4078 4118
+)
+"WriteWithMe/trie.ml" 105 4024 4035 "WriteWithMe/trie.ml" 105 4024 4036
+type(
+  char list
+)
+"WriteWithMe/trie.ml" 105 4024 4038 "WriteWithMe/trie.ml" 105 4024 4040
+type(
+  int
+)
+"WriteWithMe/trie.ml" 105 4024 4034 "WriteWithMe/trie.ml" 105 4024 4041
+type(
+  char list * int
+)
+"WriteWithMe/trie.ml" 105 4024 4044 "WriteWithMe/trie.ml" 105 4024 4056
+type(
+  entry -> char list -> char list -> int -> char list * int
+)
+ident(
+  int_ref child_finder "WriteWithMe/trie.ml" 92 3411 3421 "WriteWithMe/trie.ml" 92 3411 3433
+)
+"WriteWithMe/trie.ml" 105 4024 4057 "WriteWithMe/trie.ml" 105 4024 4067
+type(
+  entry
+)
+ident(
+  int_ref new_branch "WriteWithMe/trie.ml" 104 3953 4010 "WriteWithMe/trie.ml" 104 3953 4020
+)
+"WriteWithMe/trie.ml" 105 4024 4068 "WriteWithMe/trie.ml" 105 4024 4070
+type(
+  char list
+)
+"WriteWithMe/trie.ml" 105 4024 4071 "WriteWithMe/trie.ml" 105 4024 4072
+type(
+  char list
+)
+ident(
+  int_ref b "WriteWithMe/trie.ml" 104 3953 4004 "WriteWithMe/trie.ml" 104 3953 4005
+)
+"WriteWithMe/trie.ml" 105 4024 4073 "WriteWithMe/trie.ml" 105 4024 4074
+type(
+  int
+)
+ident(
+  int_ref c "WriteWithMe/trie.ml" 104 3953 4007 "WriteWithMe/trie.ml" 104 3953 4008
+)
+"WriteWithMe/trie.ml" 105 4024 4044 "WriteWithMe/trie.ml" 105 4024 4074
+call(
+  stack
+)
+type(
+  char list * int
+)
+"WriteWithMe/trie.ml" 106 4078 4087 "WriteWithMe/trie.ml" 106 4078 4088
+type(
+  int
+)
+ident(
+  int_ref c "WriteWithMe/trie.ml" 104 3953 4007 "WriteWithMe/trie.ml" 104 3953 4008
+)
+"WriteWithMe/trie.ml" 106 4078 4089 "WriteWithMe/trie.ml" 106 4078 4090
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"WriteWithMe/trie.ml" 106 4078 4091 "WriteWithMe/trie.ml" 106 4078 4093
+type(
+  int
+)
+ident(
+  int_ref cc "WriteWithMe/trie.ml" 105 4024 4038 "WriteWithMe/trie.ml" 105 4024 4040
+)
+"WriteWithMe/trie.ml" 106 4078 4087 "WriteWithMe/trie.ml" 106 4078 4093
+type(
+  bool
+)
+"WriteWithMe/trie.ml" 106 4078 4100 "WriteWithMe/trie.ml" 106 4078 4101
+type(
+  char list
+)
+ident(
+  int_ref b "WriteWithMe/trie.ml" 104 3953 4004 "WriteWithMe/trie.ml" 104 3953 4005
+)
+"WriteWithMe/trie.ml" 106 4078 4103 "WriteWithMe/trie.ml" 106 4078 4104
+type(
+  int
+)
+ident(
+  int_ref c "WriteWithMe/trie.ml" 104 3953 4007 "WriteWithMe/trie.ml" 104 3953 4008
+)
+"WriteWithMe/trie.ml" 106 4078 4099 "WriteWithMe/trie.ml" 106 4078 4105
+type(
+  char list * int
+)
+"WriteWithMe/trie.ml" 106 4078 4112 "WriteWithMe/trie.ml" 106 4078 4113
+type(
+  char list
+)
+ident(
+  int_ref w "WriteWithMe/trie.ml" 105 4024 4035 "WriteWithMe/trie.ml" 105 4024 4036
+)
+"WriteWithMe/trie.ml" 106 4078 4115 "WriteWithMe/trie.ml" 106 4078 4117
+type(
+  int
+)
+ident(
+  int_ref cc "WriteWithMe/trie.ml" 105 4024 4038 "WriteWithMe/trie.ml" 105 4024 4040
+)
+"WriteWithMe/trie.ml" 106 4078 4111 "WriteWithMe/trie.ml" 106 4078 4118
+type(
+  char list * int
+)
+"WriteWithMe/trie.ml" 106 4078 4084 "WriteWithMe/trie.ml" 106 4078 4118
+type(
+  char list * int
+)
+"WriteWithMe/trie.ml" 105 4024 4030 "WriteWithMe/trie.ml" 106 4078 4118
+type(
+  char list * int
+)
+"WriteWithMe/trie.ml" 104 3953 3998 "WriteWithMe/trie.ml" 106 4078 4119
+type(
+  char list * int -> entry -> char list * int
+)
+"WriteWithMe/trie.ml" 106 4078 4121 "WriteWithMe/trie.ml" 106 4078 4123
+type(
+  char list
+)
+"WriteWithMe/trie.ml" 106 4078 4125 "WriteWithMe/trie.ml" 106 4078 4126
+type(
+  int
+)
+"WriteWithMe/trie.ml" 106 4078 4120 "WriteWithMe/trie.ml" 106 4078 4127
+type(
+  char list * int
+)
+"WriteWithMe/trie.ml" 106 4078 4128 "WriteWithMe/trie.ml" 106 4078 4135
+type(
+  entry
+)
+ident(
+  int_ref element "WriteWithMe/trie.ml" 103 3926 3943 "WriteWithMe/trie.ml" 103 3926 3950
+)
+"WriteWithMe/trie.ml" 106 4078 4128 "WriteWithMe/trie.ml" 106 4078 4144
+type(
+  entry list
+)
+"WriteWithMe/trie.ml" 104 3953 3983 "WriteWithMe/trie.ml" 106 4078 4144
+call(
+  stack
+)
+type(
+  char list * int
+)
+"WriteWithMe/trie.ml" 107 4148 4152 "WriteWithMe/trie.ml" 107 4148 4159
+type(
+  entry
+)
+ident(
+  int_ref element "WriteWithMe/trie.ml" 103 3926 3943 "WriteWithMe/trie.ml" 103 3926 3950
+)
+"WriteWithMe/trie.ml" 107 4148 4178 "WriteWithMe/trie.ml" 107 4148 4193
+type(
+  char list -> string
+)
+ident(
+  int_ref string_of_chars "WriteWithMe/trie.ml" 84 3114 3118 "WriteWithMe/trie.ml" 84 3114 3133
+)
+"WriteWithMe/trie.ml" 107 4148 4195 "WriteWithMe/trie.ml" 107 4148 4203
+type(
+  char list -> char list
+)
+ident(
+  ext_ref List.rev
+)
+"WriteWithMe/trie.ml" 107 4148 4204 "WriteWithMe/trie.ml" 107 4148 4213
+type(
+  char list
+)
+ident(
+  int_ref best_word "WriteWithMe/trie.ml" 104 3953 3962 "WriteWithMe/trie.ml" 104 3953 3971
+)
+"WriteWithMe/trie.ml" 107 4148 4194 "WriteWithMe/trie.ml" 107 4148 4214
+call(
+  stack
+)
+type(
+  char list
+)
+"WriteWithMe/trie.ml" 107 4148 4178 "WriteWithMe/trie.ml" 107 4148 4214
+call(
+  stack
+)
+type(
+  string
+)
+"WriteWithMe/trie.ml" 107 4148 4152 "WriteWithMe/trie.ml" 107 4148 4214
+type(
+  unit
+)
+"WriteWithMe/trie.ml" 108 4216 4220 "WriteWithMe/trie.ml" 108 4216 4222
+type(
+  unit
+)
+"WriteWithMe/trie.ml" 107 4148 4152 "WriteWithMe/trie.ml" 108 4216 4222
+type(
+  unit
+)
+"WriteWithMe/trie.ml" 104 3953 3957 "WriteWithMe/trie.ml" 108 4216 4222
+type(
+  unit
+)
+"WriteWithMe/trie.ml" 109 4223 4228 "WriteWithMe/trie.ml" 109 4223 4238
+type(
+  entry -> unit
+)
+ident(
+  int_ref best_child "WriteWithMe/trie.ml" 103 3926 3932 "WriteWithMe/trie.ml" 103 3926 3942
+)
+"WriteWithMe/trie.ml" 109 4223 4239 "WriteWithMe/trie.ml" 109 4223 4243
+type(
+  entry
+)
+ident(
+  int_ref trie "WriteWithMe/trie.ml" 91 3390 3404 "WriteWithMe/trie.ml" 91 3390 3408
+)
+"WriteWithMe/trie.ml" 109 4223 4228 "WriteWithMe/trie.ml" 109 4223 4243
+call(
+  tail
+)
+type(
+  unit
+)
+"WriteWithMe/trie.ml" 92 3411 3413 "WriteWithMe/trie.ml" 109 4223 4243
+type(
+  unit
+)
+"WriteWithMe/trie.ml" 112 4278 4282 "WriteWithMe/trie.ml" 112 4278 4287
 type(
   entry -> entry
 )
 ident(
-  def words "WriteWithMe/trie.ml" 88 3166 3201 --
+  def words "WriteWithMe/trie.ml" 112 4278 4313 --
 )
-"WriteWithMe/trie.ml" 88 3166 3178 "WriteWithMe/trie.ml" 88 3166 3197
+"WriteWithMe/trie.ml" 112 4278 4290 "WriteWithMe/trie.ml" 112 4278 4309
 type(
   char -> entry -> entry
 )
 ident(
   int_ref entry_for_character "WriteWithMe/trie.ml" 56 1876 1880 "WriteWithMe/trie.ml" 56 1876 1899
 )
-"WriteWithMe/trie.ml" 88 3166 3198 "WriteWithMe/trie.ml" 88 3166 3201
+"WriteWithMe/trie.ml" 112 4278 4310 "WriteWithMe/trie.ml" 112 4278 4313
 type(
   char
 )
-"WriteWithMe/trie.ml" 88 3166 3178 "WriteWithMe/trie.ml" 88 3166 3201
+"WriteWithMe/trie.ml" 112 4278 4290 "WriteWithMe/trie.ml" 112 4278 4313
 call(
   stack
 )

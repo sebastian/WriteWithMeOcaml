@@ -80,10 +80,33 @@ let add_text trie text =
     | ((w::ws), trie) -> traverse (w, ws, trie, true) 
   in add_words(word_char_list, trie)
 
-let find_best_next_word trie =
-  (* TODO: Implement *)
-  () 
+(* converts a list of chars to a string *)
+let string_of_chars chars =
+  let string = String.create (List.length chars) in
+  let _ = List.fold_left (fun i c -> string.[i] <- c; i + 1) 0 chars in
+  string
+
+(* walks through the trie, calculating the most likely*)
+(* next word for all words.                           *)
+let normalize trie =
+  let rec child_finder trie word_acc curr_next curr_next_count =
+    let current_word = trie.character :: word_acc in
+    let children = trie.next in
+    let start_values = if trie.word_count > 0 then
+      (* We have a potential new candidate *)
+      (current_word, trie.word_count)
+    else (curr_next, curr_next_count) in
+    List.fold_left (fun (w, c) child ->
+      best_child child;
+      let (ww, cc) = child_finder child current_word w c in
+      if c > cc then (w, c) else (ww, cc)) start_values children
+  and best_child element =
+    let (best_word, _count) = List.fold_left (fun (b, c) new_branch ->
+      let (w, cc) = child_finder new_branch [] b c in
+      if c > cc then (b, c) else (w, cc)) ([], 0) element.new_word in
+    element.best_next_word <- string_of_chars (List.rev best_word);
+    ()
+  in best_child trie
 
 (* Creates an empty trie tree *)
 let words = entry_for_character '-'
-

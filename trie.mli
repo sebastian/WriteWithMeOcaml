@@ -12,5 +12,6 @@ val _efc : char -> entry list -> (entry list -> 'a) -> entry
 val entry_for_character_in_new_word : char -> entry -> entry
 val entry_for_character : char -> entry -> entry
 val add_text : entry -> string -> unit
-val find_best_next_word : 'a -> unit
+val string_of_chars : char list -> string
+val normalize : entry -> unit
 val words : entry -> entry
