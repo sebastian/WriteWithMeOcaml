@@ -1,6 +1,7 @@
 .paths
 .project
 .settings
+*.exe
 *.annot
 *.cmo
 *.cma
